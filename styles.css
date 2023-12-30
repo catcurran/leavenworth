@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Slab', serif;
+   
+}
+
+h1{
+    font-family: Josefin Sans;
+    color: #54B0E4;
+    text-shadow: 2px 2px black;
+}
+
+#header {
+    background-image: url("https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQFtjcaeRoYgNSLkOxPSDuzcPdjQVfBehTJotVRjlbUr4V_ipNeNkkOVfCWCFtC4w1gNqV3xRWRIrLjujwz0gwomuWLPFW4QEaiksDHfSQ");
+    background-size: cover;
+    height: 400px;
+    padding: 40px 40px 24px 40px;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+#logo{
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #54B0E4;
+}
+
+#hero-text{
+    width: 500px;
+    margin: 24px auto;
+    background-color: #02304790;
+}
+
+#activities-section{
+    background: linear-gradient(#caf0f8, #8DD4EC);
+    color: #064463;
+    padding: 40px 0 24px 0;
+}
+
+#activities {
+    display:flex;
+    justify-content: space-around;
+}
+
+.act-container{
+    width: 250px;
+}
+
+.img-act {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #54B0E4;
+}
+
+h4, h5{
+    font-family: Josefin Sans;
+    color: #027DB9;
+}
+
+#guide{
+    margin: 24px auto 30px auto;
+    display: flex;
+    width: 400px;
+    padding: 40px 20px 30px 20px;
+    background-color: #caf0f8;
+    border-radius: 16px;
+    box-shadow: 12px 12px 2px 1px #54B0E4;
+}
+
+#guide-info{
+    text-align: left;
+    padding-left: 20px;
+}
+
+#img-guide{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #54B0E4;
+}
